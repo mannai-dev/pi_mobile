@@ -118,7 +118,7 @@ public class ListReclamationForm extends BaseForm{
             new ListReclamationForm(res).show();
 
         });
-        liste.addActionListener((e) -> {
+        partage.addActionListener((e) -> {
             new AjoutReclamationForm(res).show();
 
         });
